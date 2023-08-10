@@ -40,7 +40,6 @@ The project repository is structured to facilitate an organized workflow:
   - budget_optimization.py
   - main.py
 - requirements.txt
-- LICENSE
 - README.md
 ```
 
@@ -113,6 +112,3 @@ Results can be found in the console output or saved to files, as specified in th
 
 ### Contributing <a name="contributing"></a>
 Contributions to this project are welcome. Please follow the standard guidelines for contributing.
-
-### License <a name="license"></a>
-There's no license
