@@ -73,4 +73,48 @@ The project uses the following dataset files:
 * test.csv: Test data for which you need to predict sales.
 * sample_submission.csv: Sample submission file with the correct format for submitting predictions.
 
-  
+### Usage <a name="usage"></a>
+To run the complete pipeline, follow these steps:
+
+1. Preprocess the data using the **data_preprocessing.py** script:
+```
+python src/data_preprocessing.py
+```
+2. Perform feature engineering using the **feature_engineering.py** script:
+```
+python src/feature_engineering.py
+```
+3. Train the time series model using the **time_series_model.py** script:
+```
+python src/time_series_model.py
+```
+4. Optimize budgets based on forecasts using the **budget_optimization.py** script:
+```
+python src/budget_optimization.py
+```
+5. Orchestrate the entire pipeline using the **main.py** script:
+```
+python src/main.py
+```
+
+### Workflow <a name="workflow"></a>
+The project workflow involves the following steps:
+
+**Data Preprocessing:** The data_preprocessing.py script loads and preprocesses the raw data.
+**Feature Engineering:** The feature_engineering.py script creates time-based features and lag features.
+**Time Series Model:** The time_series_model.py script trains an ARIMA model to forecast sales.
+**Budget Optimization:** The budget_optimization.py script optimizes budgets based on the forecasts.
+**Pipeline Orchestration:** The main.py script orchestrates the entire pipeline, producing forecasted sales and optimized budgets.
+
+### Results <a name="results"></a>
+The project generates:
+
+Forecasted sales based on the trained time series model.
+Optimized budgets for placements based on the forecasted sales.
+Results can be found in the console output or saved to files, as specified in the code.
+
+### Contributing <a name="contributing"></a>
+Contributions to this project are welcome. Please follow the standard guidelines for contributing.
+
+### License <a name="license"></a>
+There's no license
