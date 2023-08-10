@@ -39,9 +39,6 @@ The project repository is structured to facilitate an organized workflow:
   - time_series_model.py
   - budget_optimization.py
   - main.py
-- models/
-- notebooks/
-- docs/
 - requirements.txt
 - LICENSE
 - README.md
