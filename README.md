@@ -54,8 +54,8 @@ Required Python packages (see requirements.txt)
 #### Installation <a name="installation"></a>
 * Clone the project repository:
 ```
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/himarygr/sales-forecasting-and-budget-optimization
+cd https://github.com/himarygr/sales-forecasting-and-budget-optimization
 ```
 * Install the required packages:
 ```
