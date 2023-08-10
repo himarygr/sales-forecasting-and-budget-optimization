@@ -100,17 +100,18 @@ python src/main.py
 ### Workflow <a name="workflow"></a>
 The project workflow involves the following steps:
 
-**Data Preprocessing:** The data_preprocessing.py script loads and preprocesses the raw data.
-**Feature Engineering:** The feature_engineering.py script creates time-based features and lag features.
-**Time Series Model:** The time_series_model.py script trains an ARIMA model to forecast sales.
-**Budget Optimization:** The budget_optimization.py script optimizes budgets based on the forecasts.
-**Pipeline Orchestration:** The main.py script orchestrates the entire pipeline, producing forecasted sales and optimized budgets.
+* **Data Preprocessing:** The data_preprocessing.py script loads and preprocesses the raw data.
+* **Feature Engineering:** The feature_engineering.py script creates time-based features and lag features.
+* **Time Series Model:** The time_series_model.py script trains an ARIMA model to forecast sales.
+* **Budget Optimization:** The budget_optimization.py script optimizes budgets based on the forecasts.
+* **Pipeline Orchestration:** The main.py script orchestrates the entire pipeline, producing forecasted sales and optimized budgets.
 
 ### Results <a name="results"></a>
 The project generates:
 
-Forecasted sales based on the trained time series model.
-Optimized budgets for placements based on the forecasted sales.
+* Forecasted sales based on the trained time series model.
+* Optimized budgets for placements based on the forecasted sales.
+* 
 Results can be found in the console output or saved to files, as specified in the code.
 
 ### Contributing <a name="contributing"></a>
